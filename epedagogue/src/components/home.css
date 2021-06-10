@@ -1,0 +1,22 @@
+
+h3,h2{
+    font-family: sans-serif;
+    font-weight: bold;
+}
+p{
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+/* img{
+    box-shadow: 4px 8px 10px 5px #000;
+} */
+@media only screen and (max-width: 600px){
+.myCarousel img{
+    height: 300px;
+}
+}
+
+.card {
+    border: 0px solid rgba(0,0,0,.125) !important;
+}
+

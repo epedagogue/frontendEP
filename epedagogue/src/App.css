@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+  /* background-color:#E3E2DF; */
+  /* background-color:#1164; */
+  /* background-color:#FFCB9A; */
+  /* background-color:#E98074; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.san{
+  color: #fff;
+  background: linear-gradient( 
+90deg
+ , rgb(42 59 65) 0%, rgb(55 157 202) 51%, rgb(53 59 65) 100%);
+}
+.bg-color{
+  background-color: #f9f9f9 !important;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.row-align{
+  justify-content: center;
+}
+
+.carousel img {
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 550px;
+  max-height: 550px;
+  width: auto;
+}
+
+@media only screen and (max-width: 600px){
+  .course-padding{
+      padding-top: 20px;
+  }
+  }
